@@ -3,7 +3,7 @@ Playground for using SIMD for the parametrized sincos calculation in ATLAS: [LAr
 
 # Build using CMake
 ```
-cmake -DBENCHMARK_ENABLE_GTEST_TESTS=OFF <path-to-source-dir>
+cmake -DBENCHMARK_ENABLE_GTEST_TESTS=OFF -DCMAKE_BUILD_TYPE=Release <path-to-source-dir>
 make
 ```
 

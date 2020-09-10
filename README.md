@@ -9,5 +9,5 @@ make
 
 # Executables
 
-- sincos: run a basic test to confirm that all implementations give the same result
-- sincos_benchamrk: run the google benchmark to time the various implementations
+- `sincos`: run a basic test to confirm that all implementations give the same result
+- `sincos_benchamrk`: run the google benchmark to time the various implementations

@@ -14,3 +14,5 @@
 */
 
 void parameterized_sincos(const double r, double &sin_a, double &cos_a);
+
+void parameterized_sincos_vec(const double r, double &__restrict__ sin_a, double &__restrict__ cos_a);

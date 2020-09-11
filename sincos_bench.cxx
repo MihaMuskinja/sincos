@@ -23,7 +23,7 @@ static void parameterized_sincos_1_bench(benchmark::State &state)
         }
     }
 }
-BENCHMARK(parameterized_sincos_1_bench)->Arg(1)->Arg(10)->Arg(100);
+BENCHMARK(parameterized_sincos_1_bench)->Arg(100);
 
 //
 // S2
@@ -43,7 +43,7 @@ static void parameterized_sincos_2_bench(benchmark::State &state)
         }
     }
 }
-BENCHMARK(parameterized_sincos_2_bench)->Arg(1)->Arg(10)->Arg(100);
+BENCHMARK(parameterized_sincos_2_bench)->Arg(100);
 
 //
 // S3
@@ -63,7 +63,7 @@ static void parameterized_sincos_3_bench(benchmark::State &state)
         }
     }
 }
-BENCHMARK(parameterized_sincos_3_bench)->Arg(1)->Arg(10)->Arg(100);
+BENCHMARK(parameterized_sincos_3_bench)->Arg(100);
 
 //
 // S4
@@ -83,7 +83,7 @@ static void parameterized_sincos_4_bench(benchmark::State &state)
         }
     }
 }
-BENCHMARK(parameterized_sincos_4_bench)->Arg(1)->Arg(10)->Arg(100);
+BENCHMARK(parameterized_sincos_4_bench)->Arg(100);
 
 //
 // main
